@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.show{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10px;
+    margin-left: 50px; */
+    height: 100px;
+    background-color: rgb(10, 7, 7);
+    justify-content: space-between;
+    font-family: sans-serif;
+    padding: 25px 60px;
+}
+/* .box1{
+   
+    display: flex;
+    flex-direction: row;
+} */
+.Cart-id{
+    height: 50px;  
+   width: 50px;
+   background-color: #ffffff;
+   margin-top: 10px;
+   font-size: 30px;
+   border-radius: 5px;
+   position: relative;
+   display: flex;
+   flex-direction: column;
+}
+.fa-cart-shopping{
+    padding-top: 10px;
+}
+.cartAmount{
+    background-color: rgb(148, 17, 17);
+    top: 0px;
+    position: absolute;
+    color:#fff;
+    right: 0px;
+    border-radius: 3px;
+    font-size: 25px;
+}
+.case{
+    display:grid ;
+    grid-template-columns: repeat(4, 250px);
+    gap:20px;
+    padding: 40px 170px;
+}
+.Price{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    justify-content: space-between;
+}
+ .sec{
+    height: 350px;
+    width: 250px;
+    border: 1px solid #000;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+     
+}
+.add-v{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px;
+}
+
+.fa-plus{
+    color: green;
+}
+.fa-minus{
+    color: red;
+}
+.Logo-txt{
+    font-size: 30px;
+
+    color:blue;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+@media  (max-width: 1000px){
+.case{
+   display: grid;
+   grid-template-columns: repeat(1, 250px); 
+
+}
+.fa-bars{
+   background-color: black;
+   color:white;
+   font-size: 40px;
+   margin-top: 10px;
+}
+nav {
+    display: none;
+}
+
+   
+}
+.Logo-txt{
+    font-size: small;
+}
+
+@media  (max-width: 500px){
+    .case{
+       display: grid;
+       grid-template-columns: repeat(1, 250px); 
+    }}
+nav li{
+    list-style: none;
+    display: flex;
+    margin-left: 50px;
+    color: #fff;
+    margin-top: 20px;
+}
+nav ul{
+   display: flex;
+   margin-left: 150px;
+}
+
